@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gif Tastic!</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Gif Tastic!</h1>
+                    <p class="lead">See GIF's of my favorite travel destinations or search your own!</p>
+                </div>
+        </div>
+    
+        <div class="container tan" style="background: transparent;">
+            <h3 class="text-center">My favorite cities:</h3>
+            <br>
+            <br>
+            <div id="cities-buttons"> </div>
+            <br>
+            <br>
+            <div class="container" id="btn" style="background: transparent;">
+                <form id="cities-form">
+                    <label id="add" for="cities-input">Enter your favorite cities:</label>
+                    <input type="text" class="form-control" id="cities-input">
+                    <br>
+                    <br>
+                </form>
+                <button onclick="submitButtonClicked()" type="button" id="add-cities" class="btn btn-success">Add</button>
+                <br>
+                <br>
+                <div id="cities-2"> </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
+    </body>
+</html>

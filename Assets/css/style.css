@@ -1,0 +1,19 @@
+.jumbotron {
+    background: url(../images/travel.jpg) no-repeat center;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(201, 189, 173);
+}
+
+.btn {
+    background-color: black;
+    color: rgba(255, 217, 0, 0.582);
+    border: red;
+}
+
+.text-center {
+    margin-left: -680px;
+}
